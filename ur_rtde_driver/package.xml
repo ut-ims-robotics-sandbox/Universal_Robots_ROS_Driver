@@ -21,6 +21,7 @@
   <buildtool_depend>catkin</buildtool_depend>
 
   <build_depend>boost</build_depend>
+  <build_depend>rostest</build_depend>
 
   <depend>actionlib</depend>
   <depend>control_msgs</depend>
