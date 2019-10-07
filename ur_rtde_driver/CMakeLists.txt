@@ -114,7 +114,7 @@ target_link_libraries(ur_rtde_driver_node ${catkin_LIBRARIES} ur_rtde_driver)
 add_dependencies(ur_rtde_driver_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 if(CATKIN_ENABLE_TESTING)
-  find_package(catkin COMPONENTS rostest)
+  find_package(rostest REQUIRED)
 
   add_rostest(test/driver.test)
 endif()
